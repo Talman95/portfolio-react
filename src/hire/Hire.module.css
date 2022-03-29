@@ -1,0 +1,13 @@
+.hireBlock {
+    background: #f7f7f7;
+    padding: 100px 0;
+}
+
+.hireContainer {
+    flex-direction: column;
+    text-align: center;
+}
+
+.title {
+    background: #eeeef5;
+}

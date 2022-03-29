@@ -1,0 +1,33 @@
+.footerBlock {
+    background-color: #99d0fb;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.title {
+    background: #f7f7f7;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    margin-bottom: 15px;
+}
+
+.icon1 {
+    background: lightcyan;
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+}
+.icon2 {
+    background: bisque;
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+}

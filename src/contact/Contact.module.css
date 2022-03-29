@@ -1,0 +1,21 @@
+.contactBlock {
+    height: 100vh;
+    background: #ffd4f0;
+}
+
+.contactContainer {
+    border: 1px solid;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title {
+    background: #f7f7f7;
+}
+
+.formBlock {
+    border: 1px solid;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+}
