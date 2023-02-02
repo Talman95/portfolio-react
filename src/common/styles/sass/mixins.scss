@@ -1,0 +1,8 @@
+@import './variables';
+
+@mixin button($fontFamily, $fontSize, $letterSpacing) {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: $bgTextButtonColor;
+}

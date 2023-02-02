@@ -1,0 +1,110 @@
+@import '../../common/styles/sass/variables';
+
+.project {
+  margin-top: 50px;
+  width: 450px;
+
+  @media screen and (max-width: 1150px) {
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 620px) {
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+  background: linear-gradient(145deg, #e2e8ec, #fff);
+  box-shadow: 5px 5px 15px #d1d9e6, -5px -5px 15px #fff;
+  padding: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  height: 100%;
+
+  &:hover .wrapper .image {
+    transform: scale(1.2);
+  }
+
+  .wrapper {
+    overflow: hidden;
+
+    .image {
+      height: 300px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      cursor: pointer;
+      transition: all 1s ease;
+    }
+
+
+  }
+
+  //.image {
+  //  height: 300px;
+  //  width: 100%;
+  //  display: flex;
+  //  justify-content: center;
+  //  align-items: center;
+  //  background-size: cover;
+  //  background-position: center;
+  //  position: relative;
+  //  cursor: pointer;
+  //  transform: scale(1.2);
+  //
+  //  &::before {
+  //    position: absolute;
+  //    content: '';
+  //    background: rgba(0, 0, 0, 0.5);
+  //    top: 0;
+  //    right: 0;
+  //    bottom: 0;
+  //    left: 0;
+  //    opacity: 0.4;
+  //  }
+  //
+  //  .viewBtn {
+  //    position: relative;
+  //    z-index: 1;
+  //    font-family: 'Open Sans', sans-serif;
+  //    text-decoration: none;
+  //    padding: 12px 50px;
+  //    color: #fff;
+  //    text-transform: uppercase;
+  //    outline: none !important;
+  //    background-color: #fd735a;
+  //    border-radius: 2px;
+  //    border: 1px solid transparent;
+  //  }
+  //}
+
+  .descriptionBlock {
+    padding-top: 18px;
+    text-align: left;
+
+    .title {
+      color: $primary;
+      font-weight: 500;
+      font-size: 12px;
+      padding-bottom: 10px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .description {
+      margin: 0;
+      color: $colorHeading;
+      display: inline-block;
+      font-size: 23px;
+      font-weight: 600;
+      line-height: 34px;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}
