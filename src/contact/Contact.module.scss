@@ -1,0 +1,109 @@
+@import '../common/styles/sass/variables';
+
+.contactBlock {
+  min-height: 100vh;
+  padding: 50px 0;
+
+  .contactContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .mainInfo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+    width: 100%;
+
+    .formBlock {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+
+      @media screen and (max-width: 1200px) {
+        width: 60%;
+      }
+      @media screen and (max-width: 900px) {
+        width: 80%;
+      }
+      @media screen and (max-width: 600px) {
+        width: 100%;
+      }
+
+      .form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .formItem {
+          margin-bottom: 20px;
+          width: 100%;
+
+          label {
+            color: #3c3e41;
+            display: block;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            margin-bottom: 14px;
+            text-align: left;
+            text-transform: uppercase;
+            line-height: 22px;
+          }
+
+          input {
+            background-color: #fdfefe;
+            border: 2px solid #dadada;
+            box-shadow: none;
+            color: #3c3e41;
+            width: 100%;
+            font-size: 14px;
+            height: 55px;
+            letter-spacing: 1px;
+            padding: 0 15px;
+          }
+
+          textarea {
+            background: #fdfefe;
+            border: 2px solid #dadada;
+            box-shadow: none;
+            color: #3c3e41;;
+            border-radius: 6px;
+            font-size: 14px;
+            letter-spacing: 1px;
+            line-height: 18px;
+            min-height: 235px;
+            padding: 10px 15px;
+            resize: none;
+            font-weight: 400;
+            width: 100%;
+          }
+        }
+
+        input, textarea {
+          width: 100%;
+        }
+
+        input:focus, textarea:focus {
+          outline: none;
+          border: 2px solid $colorSubtitle;
+        }
+
+        @media screen and (max-width: 600px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

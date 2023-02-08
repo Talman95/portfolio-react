@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Hire.module.css';
 import styleContainer from '../common/styles/Container.module.css';
-import styleButton from '../common/styles/Button.module.css';
+import styleButton from '../common/styles/Button.module.scss';
 
 export const Hire = () => {
     return (
